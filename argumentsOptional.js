@@ -39,8 +39,8 @@ function addTogether() {
   }
   
   //calling function to check how it work
-  console.log(addTogether(2,3));
-  console.log(addTogether(2)([3])); 
-  console.log(addTogether(3)(4));
-  console.log(addTogether(2, 3, 4, 5, 6));
-  console.log(addTogether(2, 3, 4, 5, 'i'));
+  console.log(addTogether(2,3)); //should return 5
+  console.log(addTogether(2)([3])); //should return 'undefined'
+  console.log(addTogether(3)(4)); //should return 7
+  console.log(addTogether(2, 3, 4, 5, 6)); //should return 20
+  console.log(addTogether(2, 3, 4, 5, 'i')); //should return 'undefined'
